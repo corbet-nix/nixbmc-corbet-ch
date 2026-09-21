@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/nixos.nix
 #
 # NixOS backend for nixbmc -- resolves the option surface into environment.systemPackages and

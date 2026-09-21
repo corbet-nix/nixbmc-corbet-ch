@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 // YUV->BGR conversion (the AST engine's own fixed-point color-matrix tables,
 // built once in decoder.js's initColorTable). Output goes to st.decodeBuf as
 // 24-bit BGR (3 bytes/pixel).

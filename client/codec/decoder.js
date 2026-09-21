@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 // Decodes the AMI/ASPEED KVM video stream: a tile-based hybrid of VQ (vector
 // quantization) and JPEG (DCT + Huffman + quantization), YUV 4:2:0, with
 // optional RC4 encryption of the entropy-coded data and delta (skip) tiles

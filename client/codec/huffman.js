@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 import { toInt16 } from "./bitreader.js";
 
 // A fast Huffman decode table: per-bit-length min/max code, a direct value

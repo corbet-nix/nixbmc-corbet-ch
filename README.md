@@ -28,7 +28,7 @@ genuinely different concern regardless of `inBand`, and this module does not att
 ```nix
 # flake.nix (consumer side)
 {
-  inputs.nixbmc.url = "github:julian-corbet/nixbmc-corbet-ch";
+  inputs.nixbmc.url = "github:corbet-nix/nixbmc-corbet-ch";
 
   outputs = { self, nixpkgs, nixbmc, ... }: {
     # A host with its own local BMC:
@@ -97,7 +97,7 @@ reading (`ipmitool dcmi power reading`) should not silently acquire a firmware-f
 utility as a side effect of asking for one, and vice versa.
 
 Why this is not folded into a power-stance module (e.g.
-[nixpower](https://github.com/julian-corbet/nixpower-corbet-ch), which names this module by
+[nixpower](https://github.com/corbet-nix/nixpower-corbet-ch), which names this module by
 reference for exactly this reason): a BMC is a whole second computer inside the box, with its
 own firmware and its own view of the hardware. It *answers* power questions but it is not a
 power knob, and folding its tooling into a power-stance module makes both harder to reason
@@ -245,16 +245,17 @@ for v1 — display + input is the actual ask.
 ## Related projects
 
 nixbmc is one of several small, independently-usable open-source projects
-sharing a common design system: [nixarch](https://github.com/julian-corbet/nixarch-corbet-ch),
-nixvps, nixram, nixnas, [nixremote](https://github.com/julian-corbet/nixremote-corbet-ch),
-[nixsh](https://github.com/julian-corbet/nixsh-corbet-ch), and
-[nixpower](https://github.com/julian-corbet/nixpower-corbet-ch) (the power-stance mechanism
+sharing a common design system: [nixarch](https://github.com/corbet-nix/nixarch-corbet-ch),
+nixvps, nixram, nixnas, [nixremote](https://github.com/corbet-nix/nixremote-corbet-ch),
+[nixsh](https://github.com/corbet-nix/nixsh-corbet-ch), and
+[nixpower](https://github.com/corbet-nix/nixpower-corbet-ch) (the power-stance mechanism
 `nixbmc.*` deliberately stays out of — see "BMC access" above; nixpower's own module
 names this repo by reference for anything BMC-shaped). Its niche is a BMC's own surfaces —
 in-band and out-of-band-client CLI access today, a browser console protocol once the KVM
 viewer lands — narrow by design, useful to anyone with the same class of hardware regardless
 of whether they run anything else in this family.
 
-## License
 
-[MIT License](LICENSE) © 2026 Julian Corbet
+## Licence
+
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

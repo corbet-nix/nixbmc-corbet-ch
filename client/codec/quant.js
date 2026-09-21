@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 import * as T from "./tables.js";
 
 // Builds one 64-entry dequantization table from a signed-byte source table,

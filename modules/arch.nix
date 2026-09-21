@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/arch.nix
 #
 # Arch/system-manager backend for nixbmc -- publishes the selections as pacman package names;

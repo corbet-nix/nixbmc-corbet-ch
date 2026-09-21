@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 // Bit-level reader over the packed little-endian uint32 tile stream. Two
 // working registers (recv[0]/recv[1]) hold the current window; `index` points
 // at the next word to pull in, `newbits` tracks how many valid bits remain in

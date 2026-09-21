@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 import * as T from "./tables.js";
 import { lookKbits, skipKbits, getKbits, toInt8, toInt16 } from "./bitreader.js";
 import { wordHiLo, u16 } from "./huffman.js";

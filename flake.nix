@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixbmc — baseboard management controller (BMC) access, installed declaratively: ipmitool (in-band against this host's own BMC, the default, or an out-of-band-only client of a different machine's BMC with no kernel module) and/or flashrom, on NixOS and Arch/system-manager alike. No BMC IP, no credentials, no Redfish/remote client baked in, ever — an out-of-band caller supplies -H/-U/-P itself; not a virtual-media implementation. The clean-room browser-native KVM viewer for AMI MegaRAC-family BMCs (replacing the flaky bundled H5Viewer) is a separate, pre-alpha concern living in this same repo: its codec is written, every other client layer and the proxy are not — see README.md's Status.";
 

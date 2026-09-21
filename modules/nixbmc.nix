@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/nixbmc.nix
 #
 # nixbmc — baseboard management controller (BMC) access, platform-neutral half: the option

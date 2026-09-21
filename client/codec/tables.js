@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 // Standard JPEG tables (ITU-T T.81 Annex K "typical" Huffman tables) and the
 // AST video engine's per-quality quantization tables, needed to decode the
 // tile stream at all — a client that used different numbers simply could not

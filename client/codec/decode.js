@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 import { keysExpansion, decodeRC4Setup, rc4Crypt } from "./rc4.js";
 import {
   loadLuminanceQuantizationTable,

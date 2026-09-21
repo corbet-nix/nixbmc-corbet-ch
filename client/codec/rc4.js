@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
 // The BMC's video-session RC4 layer, gated per-frame by the FrameHeader's
 // RC4Enable flag. The fixed key below is a wire-protocol constant (both sides
 // must agree on it for the stream to decrypt at all), not a secret.
